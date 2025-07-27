@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss' prefix(tw);
+
+@theme {
+  --color-primary: #FF914D;
+  --color-primary-light: rgba(255, 145, 77, 0.77);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  @apply tw:text-sm;
+}
+
+input:focus-visible {
+  @apply tw:outline-2 tw:outline-primary;
+}
+
