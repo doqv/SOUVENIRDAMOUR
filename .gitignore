@@ -1,24 +1,54 @@
-# Compiled class file
-*.class
+# Node Files #
+**/node_modules
 
-# Log file
-*.log
+# Coverage directory used by tools like istanbul
+**/coverage
 
-# BlueJ files
-*.ctxt
+# JetBrains IDE setting
+.idea
+*.iml
+*.iws
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Dist folder
+**/dist
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Tslint output folder
+**/tslint
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Logs
+**/logs
+*/.log
+
+# Maven target
+**/target
+
+# Eclipse workspace
+**/.metadata/
+**/bin/
+**/build/
+!**/ckeditor5/build/
+**/Servers/
+
+# Webstorm configure
+**/.editorconfig
+**/.recommenders
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VSCode
+.vscode/
+.factorypath
+
+# Sonarlint
+**/.sonarlint
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target
+proxy.conf.json
